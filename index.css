@@ -1,0 +1,21 @@
+body {
+    background: #eaafc8;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    min-height: 100vh;
+  }
+  .heading{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form1{
+    width:35rem;
+    margin:auto;
+  }
+  @media (max-width: 36rem)
+{.form1 {
+    margin: auto;
+    width: 20rem;
+}}
